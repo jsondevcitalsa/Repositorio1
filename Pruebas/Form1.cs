@@ -16,5 +16,22 @@ namespace Pruebas
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                
+                    System.Data.DataTable dtVendor = new System.Data.DataTable();
+                    Metodo.metodo mt = new Metodo.metodo();
+                    dtVendor = mt.ConNum();
+                    dataGridView1.DataSource = dtVendor;
+                
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
     }
 }
