@@ -1,0 +1,2 @@
+C:\Users\programadorit\Documents\Visual Studio 2013\Projects\VisorProveedor\NewRepo\Pruebas\Pruebas\bin\Debug\Pruebas.exe.config
+C:\Users\programadorit\Documents\Visual Studio 2013\Projects\Pruebas\Pruebas\bin\Debug\Pruebas.exe.config
